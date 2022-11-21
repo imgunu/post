@@ -16,7 +16,7 @@ clientRedis.on('error', err => {
 });*/
 
 const WebSocket = require("ws");
-const wss = new WebSocket.Server({ port: 80 });
+const wss = new WebSocket.Server({ port: 3000 });
 
 const express = require("express");
 const app = express();
